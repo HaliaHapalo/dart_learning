@@ -1,3 +1,11 @@
 void main() {
-  print('Hello, world!');
+  // Завдання 1: Математичні оператори
+  double width = 18.4;
+  double height = 30.9;
+  double area = width * height;
+  double perimeter = 2 * (width + height);
+  int squares = (width * height).toInt(); // або area ~/ 1;
+  print('Площа: $area');
+  print('Периметр: $perimeter');
+  print('Повних квадратів 1x1: $squares');
 }
