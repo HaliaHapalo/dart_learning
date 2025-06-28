@@ -8,4 +8,12 @@ void main() {
   print('Площа: $area');
   print('Периметр: $perimeter');
   print('Повних квадратів 1x1: $squares');
+
+  
+  // Завдання 2: Оператори порівняння
+  int number = 75;
+  print('Більше 50: ${number > 50}');
+  print('Менше 100: ${number < 100}');
+  print('Ділиться на 5: ${number % 5 == 0}');
+
 }
