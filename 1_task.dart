@@ -16,4 +16,10 @@ void main() {
   print('Менше 100: ${number < 100}');
   print('Ділиться на 5: ${number % 5 == 0}');
 
+
+// Завдання 3: Логічні оператори
+  bool hasMoney = true;
+  bool isStoreOpen = false;
+  print('Можна купити: ${hasMoney && isStoreOpen}');
+  print('Почекати: ${!hasMoney || !isStoreOpen}');
 }
