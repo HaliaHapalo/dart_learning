@@ -80,4 +80,14 @@ void main() {
     default:
       print("Невірний номер дня");
   }
+
+    // Завдання 8: for
+  int sum = 0;
+  print("Числа 1–10:");
+  for (int i = 1; i <= 10; i++) {
+    print(i);
+    if (i % 2 == 0) print("Парне: $i");
+    sum += i;
+  }
+  print("Сума: $sum");
 }
