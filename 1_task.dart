@@ -38,4 +38,19 @@ void main() {
   score *= 2;
   score ~/= totalQuestions;
   print('Результат: $score');
+
+    // Завдання 6: if/else
+  int examScore = 56;
+  if (examScore > 90) {
+    print("Відмінно");
+  } else if (examScore >= 75) {
+    print("Добре");
+  } else if (examScore >= 60) {
+    print("Задовільно");
+  } else {
+    print("Не здано");
+    if (examScore < 20) {
+      print("Повторити курс");
+    }
+  }
 }
