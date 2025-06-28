@@ -22,4 +22,10 @@ void main() {
   bool isStoreOpen = false;
   print('Можна купити: ${hasMoney && isStoreOpen}');
   print('Почекати: ${!hasMoney || !isStoreOpen}');
+
+    int temperature = 7;
+  String weather = temperature > 25 ? "Тепло" : "Прохолодно";
+  String extra = temperature < 10 ? "Дуже холодно" : "";
+  print('Погода: $weather');
+  print(extra);
 }
