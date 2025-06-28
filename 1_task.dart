@@ -90,4 +90,15 @@ void main() {
     sum += i;
   }
   print("Сума: $sum");
+
+    // Завдання 9: while
+  int count = 10;
+  while (count >= 0) {
+    if (count % 2 == 0) {
+      print("Парне число: $count");
+    } else {
+      print("Непарне число: $count");
+    }
+    count--;
+  }
 }
